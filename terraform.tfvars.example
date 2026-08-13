@@ -1,0 +1,5 @@
+rdp_source = "YOUR_PUBLIC_IP/32"   # Find yours at ifconfig.me — format: 1.2.3.4/32
+
+# admin_password is NOT set here — use an environment variable instead:
+#   fish: set -x TF_VAR_admin_password "YourStrongPassword!"
+# Minimum 12 characters, mix upper/lower/number/symbol.
