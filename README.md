@@ -2,6 +2,10 @@
 
 Active Directory · NTFS Permissions · SMB File Services · Group Policy · Terraform · PowerShell · Azure
 
+---
+
+## [▶️ Lab Walkthrough Video](https://www.loom.com)
+
 ## What This Lab Covers
 
 This lab builds a Windows domain and centralized file server in Azure, then uses Active Directory security groups and NTFS permissions to control which departments can access company data.
