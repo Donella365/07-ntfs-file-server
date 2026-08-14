@@ -144,12 +144,6 @@ Using Azure VM Run Command means the configuration scripts can execute remotely 
 
 I tested the permission model from CLIENT01 using each domain account, confirming the complete chain: Domain User → AD Security Group → NTFS ACL → SMB Share → Allowed or Denied.
 
-**joe.meyer — Finance access confirmed, HR denied**
-
-Logged in as joe.meyer and opened \\FS01\Finance successfully.
-
-![Joe Meyer accessing Finance share](screenshots/joe-finance-access.png)
-
 Created a folder inside \\FS01\Finance to confirm write access, not just browse access.
 
 ![Joe Meyer write access proof in Finance](screenshots/joe-finance-write-proof.png)
