@@ -29,6 +29,8 @@ The goal was to model a common Windows systems administration workflow: users re
 
 ## Architecture
 
+![Lab 07 Build Stages](screenshots/build-stages-diagram.png)
+
 ![Lab 07 NTFS File Server Architecture](screenshots/architecture-diagram.png)
 
 The environment uses three Windows VMs on the same Azure VNet:
