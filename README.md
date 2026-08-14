@@ -41,23 +41,6 @@ The environment uses three Windows VMs on the same Azure VNet:
 
 DC01 uses the static private IP `10.0.1.4` because the other domain members use it for DNS. FS01 and CLIENT01 use dynamic private IPs.
 
-## Lab Details
-
-| Variable | Value |
-| --- | --- |
-| Domain | lab.local |
-| Azure region | Mexico Central |
-| Resource group | RG-FileServerLab |
-| VNet | VNET-FileServerLab — 10.0.0.0/16 |
-| Subnet | Subnet-Servers — 10.0.1.0/24 |
-| NSG | RDP 3389 allowed only from one specific public IP |
-| Domain controller | DC01 — Windows Server 2022 — 10.0.1.4 |
-| File server | FS01 — Windows Server 2022 |
-| Workstation | CLIENT01 — Windows 11 Pro 24H2 |
-| Secrets | Azure Key Vault |
-| Infrastructure | Terraform |
-| Configuration | PowerShell + Azure VM Run Command |
-
 ## Build Stages
 
 ### 1. Provision
