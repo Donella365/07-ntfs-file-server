@@ -29,8 +29,6 @@ The goal was to model a common Windows systems administration workflow: users re
 
 ## Architecture
 
-![Lab 07 Build Stages](screenshots/build-stages-diagram.png)
-
 ![Lab 07 NTFS File Server Architecture](screenshots/architecture-diagram.png)
 
 The environment uses three Windows VMs on the same Azure VNet:
@@ -42,6 +40,8 @@ The environment uses three Windows VMs on the same Azure VNet:
 DC01 uses the static private IP `10.0.1.4` because the other domain members use it for DNS. FS01 and CLIENT01 use dynamic private IPs.
 
 ## Build Stages
+
+![Lab 07 Build Stages](screenshots/build-stages-diagram.png)
 
 ### 1. Provision
 
