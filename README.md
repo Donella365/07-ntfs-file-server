@@ -4,7 +4,7 @@ Active Directory · NTFS Permissions · SMB File Services · Group Policy · Ter
 
 ---
 
-## [▶️ Lab Walkthrough Video](https://www.loom.com/share/c5c8267ecbc64a629950266a8de83430)
+## [▶️ Lab Walkthrough Video](https://www.loom.com/share/bfcfcf02de2d455b8d973b875dd2ea1b)
 
 ## What This Lab Covers
 
